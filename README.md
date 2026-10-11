@@ -1,4 +1,4 @@
-# Zenskar SDE-1 Round 1 Practice: Invoice Service
+# Invoice Service
 
 This is a small existing Python codebase. Treat it like an interview repository: inspect it first, run the tests, trace the failing behavior, and make the smallest safe fix. Do not rewrite everything.
 
