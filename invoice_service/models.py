@@ -11,5 +11,6 @@ class Invoice:
     def total(self) -> float:
         subtotal = sum(self.prices)
         if self.discount_percent:
-            subtotal -= self.discount_percent / 100
+            print(subtotal)
+            subtotal -= subtotal * self.discount_percent / 100
         return round(subtotal, 2)

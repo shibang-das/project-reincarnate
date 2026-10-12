@@ -7,4 +7,4 @@ def test_creating_second_invoice_for_same_customer_does_not_erase_first_invoice(
     api.post_invoice({"customer_id": "c1", "prices": [200]})
 
     invoices = api.repository.all()
-    assert len(invoices) == 2
+    assert len(invoices["c1"]) == 2
